@@ -1,0 +1,11 @@
+<div class="todo-list-container">
+    <div 
+        class="todo"
+        *ngFor="let todo of todos"
+    >
+        <h3>{{ todo.title }}</h3>
+        <p>{{ todo.description }}</p>
+        <p *ngIf="todo.isCompleted">❌</p>
+        <p *ngIf="!todo.isCompleted">⭕️</p>
+    </div>
+</div>

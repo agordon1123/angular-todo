@@ -1,0 +1,22 @@
+.todo-list-container {
+    margin-top: 2rem;
+}
+
+.todo {
+    font-size: 1.6rem;
+    margin: 1rem auto;
+    padding: 2rem;
+    width: 40rem;
+    height: 8rem;
+    border: 1px solid #242A2E;
+    background-color: #ffffff;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: .5px 2px 2px -.5px rgba(0,0,0,.4);
+}
+
+.todo:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.header-container {
+    background-color: #242A2E;
+    height: 10vh;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,.4);
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
